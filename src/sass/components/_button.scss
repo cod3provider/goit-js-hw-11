@@ -1,0 +1,28 @@
+.load-more {
+  display: block;
+  margin: 0 auto 30px;
+  padding: 10px;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: #dce79c;
+
+  cursor: pointer;
+  border: 1px solid rgba(50, 202, 33, 0.62);
+  border-radius: 10px;
+  background-color: #58bd68;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #0f3286;
+  }
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
